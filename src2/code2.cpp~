@@ -1,0 +1,10 @@
+#include "categorizer.h"
+ 
+int main() {
+int clusters = 100;
+categorizer c(clusters,1);
+c.build_vocab();
+c.train_classifiers();
+return 0;
+}
+
